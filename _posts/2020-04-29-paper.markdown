@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Paper: Numerical Algorithm Design and Analysis"
+date:   2018-06-06 19:26:00 -0400
+categories: jekyll update
+---
+
+
+In this publication I examined the current algorithms used to solve electromagnetic wave probelms, such as solving the wave-equation inside some complex geometry or structure. This is done to know the different features of the electric and magnetic fields inside that system, from which many optimizations and design improvements can be deduced. 
+
+Finite Element Methods (FEM) is a group of numerical algorithms that are good at this task. They divide the problem space into segments called `elements` and solve an equation for each element, finaly combining them to produce the final solution. 
+
+
+In this [Publication](https://escholarship.mcgill.ca/concern/theses/79408062n?locale=en) I developed a set of algorithms that does the following:
+- solves regions of complex geometry with higher-order polynomial functions
+- solves regions of less complex geometry with lower-order polynomial functions
+- adaptively subdivides the problem space based on the previous rules until a solution is found
+
+When applied to electrical transmission line prblems, the new method produces more accurte solutions compared previous classical methods.
